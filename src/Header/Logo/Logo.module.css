@@ -1,1 +1,6 @@
-.Logo {}
+.Logo {
+    width: 40%;
+    height: 100%;
+    padding: 0px;
+    margin-left: -20px;
+}

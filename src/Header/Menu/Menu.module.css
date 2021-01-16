@@ -1,0 +1,93 @@
+.MenuIcon {
+    width: 3.1em;
+    margin-right: -15px;
+}
+
+.MobileMenu {
+    position: fixed;
+    width: 64.3%;
+    /* max-width: 550px; */
+    height: 100%;
+    right: 0;
+    top: 56px;
+    z-index: 200;
+    background-color: #e7e6e4f1;
+    padding: 25px 16px;
+    margin: auto;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+}
+
+.List {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+}
+
+.List a {
+    color: #20232a;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.List a:hover {
+    background-color: #20232a;
+    border-bottom: 4px solid #ffffff;
+    color: white;
+}
+
+
+/* .ClickOudside {
+    width: 0%;
+    height: 0%;
+    background-color: brown;
+} */
+
+@media (min-width: 500px) {
+    .MobileMenu {
+        display: none;
+    }
+    .MenuIcon {
+        display: none;
+    }
+    .List {
+        display: none;
+    }
+}
+
+@media (min-width: 500px) {
+    .Menu {
+        background-color: #1d1b1bbb;
+        margin-right: -17px;
+        margin-top: 17px;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        height: 90%;
+    }
+    /* MenuItem */
+    .MenuItem {
+        margin: 10px 0;
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+    }
+    .MenuItem a {
+        color: #925317;
+        text-decoration: none;
+        width: 100%;
+        box-sizing: border-box;
+        display: block;
+    }
+    .MenuItem a:hover,
+    .MenuItem a:active,
+    .MenuItem a.active {
+        color: #40A4C8;
+    }
+}
