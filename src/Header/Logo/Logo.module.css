@@ -4,3 +4,13 @@
     padding: 0px;
     margin-left: -20px;
 }
+
+@media (min-width: 500px) {
+    .Logo {
+        width: auto;
+        height: 100%;
+        padding: 0px;
+        margin-left: -18px;
+        margin-top: 2px;
+    }
+}
