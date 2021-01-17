@@ -1,0 +1,21 @@
+.HomePage {
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+}
+
+.Text {
+    text-align: justify;
+    padding-top: 15px;
+    height: 400px;
+    font-size: auto;
+}
+
+textarea {
+    width: 200px;
+}
+
+.Carousel {
+    border-style: groove;
+    border-radius: 5px;
+}

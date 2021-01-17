@@ -1,7 +1,7 @@
 .Logo {
     width: 40%;
     height: 100%;
-    padding: 0px;
+    padding: 5px;
     margin-left: -20px;
 }
 
@@ -9,7 +9,7 @@
     .Logo {
         width: auto;
         height: 100%;
-        padding: 0px;
+        padding: 5px;
         margin-left: -18px;
         margin-top: 2px;
     }

@@ -4,7 +4,7 @@ import menu from "./mobile-menu.png";
 import MenuItems from "./menuItems/MenuItems";
 
 const Menu = () => {
-  const [showMobileMenu, setShowingMobileMenu] = useState(true);
+  const [showMobileMenu, setShowingMobileMenu] = useState(false);
   const mobile_menu = showMobileMenu ? (
     <ul className={`${classes.List} ${classes.MobileMenu}`}>
       <MenuItems />

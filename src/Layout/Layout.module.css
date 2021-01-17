@@ -1,3 +1,6 @@
 .Layout {
-    background-color: blue;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
 }
