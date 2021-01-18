@@ -1,8 +1,9 @@
 .Main {
+    min-height: 100%;
     background-color: #20232a;
     margin-top: 2px;
-    margin-bottom: -1px;
-    padding: 15px;
+    margin-bottom: -2px;
+    padding: 35px;
     display: flex;
     flex-direction: column;
 }

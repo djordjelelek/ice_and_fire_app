@@ -8,7 +8,7 @@ import picture3 from "./pictures/3.jpg";
 
 const homePage = () => (
   <div className={classes.HomePage}>
-    <h>Game of Thrones</h>
+    <h1>Game of Thrones</h1>
     <p className={classes.Text}>
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur,
       explicabo odit rem odio vel excepturi officia perferendis perspiciatis,
