@@ -1,21 +1,28 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const menuItems = () => (
   <>
-    <li link="/">
-      <a href="/">Home</a>
+    <li>
+      <NavLink to="/" exact activeStyle={{ color: "#ffffff" }}>
+        Home
+      </NavLink>
     </li>
-    <li link="/">
-      <a href="/">Books</a>
+    <li>
+      <NavLink to="/books" activeStyle={{ color: "#ffffff" }}>
+        Books
+      </NavLink>
     </li>
-    <li link="/">
-      <a href="/">Characters</a>
+    <li>
+      <NavLink to="/" exact>
+        Characters
+      </NavLink>
     </li>
-    <li link="/">
-      <a href="/">Houses</a>
+    <li>
+      <NavLink to="/">Houses</NavLink>
     </li>
-    <li link="/">
-      <a href="/">Search</a>
+    <li>
+      <NavLink to="/">Search</NavLink>
     </li>
   </>
 );

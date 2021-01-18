@@ -92,6 +92,7 @@
 .MenuItem a:active,
 .MenuItem a.active {
     color: white;
+    text-decoration: none;
 }
 
 @media (max-width: 500px) {
