@@ -5,6 +5,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import picture1 from "./pictures/1.jpg";
 import picture2 from "./pictures/2.jpg";
 import picture3 from "./pictures/3.jpg";
+import CardMedia from "@material-ui/core/CardMedia";
+import ReactPlayer from "react-player";
 
 const homePage = () => (
   <div className={classes.HomePage}>
@@ -57,6 +59,7 @@ const homePage = () => (
       consectetur adipivoluptates. Lorem ipsum dolor sit amet consectetur
       adipisicing
     </p>
+    {/* <ReactPlayer url="https://www.youtube.com/watch?v=AdQ3JDLlmPI" /> */}
     <Carousel className={classes.Carousel}>
       <Carousel.Item>
         <img className="d-block w-100" src={picture1} alt="First slide" />

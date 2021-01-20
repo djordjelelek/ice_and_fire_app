@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const menuItems = () => (
   <>
     <li>
-      <NavLink to="/" exact activeStyle={{ color: "#ffffff" }}>
+      <NavLink to="/home" activeStyle={{ color: "#ffffff" }}>
         Home
       </NavLink>
     </li>
@@ -14,16 +14,20 @@ const menuItems = () => (
       </NavLink>
     </li>
     <li>
-      <NavLink to="/" exact>
-        Characters
+      <NavLink to="/houses" activeStyle={{ color: "#ffffff" }}>
+        Houses
       </NavLink>
     </li>
     <li>
-      <NavLink to="/">Houses</NavLink>
+      <NavLink to="/characters" activeStyle={{ color: "#ffffff" }}>
+        Characters
+      </NavLink>
     </li>
-    <li>
-      <NavLink to="/">Search</NavLink>
-    </li>
+    {/* <li>
+      <NavLink to="/search" activeStyle={{ color: "#ffffff" }}>
+        Search
+      </NavLink>
+    </li> */}
   </>
 );
 
