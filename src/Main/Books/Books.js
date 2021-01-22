@@ -21,18 +21,22 @@ const Books = () => {
     gettingBooks();
   }, []);
   const books = booksState.map((response, index) => (
-    <li key={index}>
+    <li key={index} className={classes.BookItems}>
       <NavLink
         to={{ pathname: `/books/${index + 1}`, aboutProps: { response } }}
+        activeStyle={{ color: "#ffffff", fontSize: "18px" }}
       >
         {response.name}
       </NavLink>
     </li>
   ));
   return loading > 0 ? (
-    <div>
+    <div className={classes.Books}>
       <Image src={bookspicture} fluid />
-      <ul className={classes.Books}>{books}</ul>
+      <h5 className={classes.Header}>
+        CLick on the book for more information:
+      </h5>
+      <ul className={classes.BookList}>{books}</ul>
     </div>
   ) : (
     <div className={classes.SpinnerContainer}>

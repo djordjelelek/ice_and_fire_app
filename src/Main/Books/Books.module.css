@@ -1,8 +1,21 @@
     .Books {
-        color: blue;
+        /* color: #ffffff; */
         height: 100%;
         width: 100%;
-        margin: 20px;
+        padding: 20px;
+    }
+    
+    .BookList {
+        padding-left: 0px;
+    }
+    
+    .BookItems {
+        font-size: 18px;
+    }
+    
+    .Header {
+        color: #ffffff;
+        margin-top: 30px;
     }
     
     .SpinnerContainer {
@@ -19,4 +32,13 @@
     .BookPicture {
         height: 90%;
         width: 90%;
+    }
+    
+    @media (min-width: 501px) {
+        .Book {
+            text-decoration: none !important;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+        }
     }

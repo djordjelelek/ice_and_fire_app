@@ -18,11 +18,11 @@ const menuItems = () => (
         Houses
       </NavLink>
     </li>
-    <li>
+    {/* <li>
       <NavLink to="/characters" activeStyle={{ color: "#ffffff" }}>
         Characters
       </NavLink>
-    </li>
+    </li> */}
     {/* <li>
       <NavLink to="/search" activeStyle={{ color: "#ffffff" }}>
         Search
